@@ -90,13 +90,13 @@ O bot ficará online e começará a monitorar os jogadores e agendar o envio aut
 
 ## ⏰ Funcionamento Automático
 
-# 🕚 Horário: Toda Segunda às 09:00 da manhã
+🕚 Horário: Toda Segunda às 09:00 da manhã
 
-# 🧠 O bot busca partidas Premier jogadas nos últimos 6 dias
+🧠 O bot busca partidas Premier jogadas nos últimos 6 dias
 
-# 📤 Envia um resumo semanal automaticamente para o canal configurado
+📤 Envia um resumo semanal automaticamente para o canal configurado
 
-# 🗃️ Salva as partidas processadas no arquivo data/stats.json para evitar duplicatas
+🗃️ Salva as partidas processadas no arquivo data/stats.json para evitar duplicatas
 
 ---
 
