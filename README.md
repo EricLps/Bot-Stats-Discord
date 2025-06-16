@@ -26,14 +26,14 @@ Bot-Discord/
 
 --- 
 
-### 🧩 Instalação
+## 🧩 Instalação
 
-## 1️⃣ Clone o repositório:
+### 1️⃣ Clone o repositório:
 
 git clone <url-do-repositorio>
 cd Bot-Discord
 
-## 2️⃣ (Opcional) Crie e ative um ambiente virtual:
+### 2️⃣ (Opcional) Crie e ative um ambiente virtual:
 
     Windows:
 
@@ -45,15 +45,15 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 
-## 3️⃣ Instale as dependências:
+### 3️⃣ Instale as dependências:
 
 pip install -r requirements.txt
 
 --- 
 
-### 🛠️ Configuração
+## 🛠️ Configuração
 
-## 1️⃣ Crie o arquivo config.py na raiz do projeto com o conteúdo abaixo:
+### 1️⃣ Crie o arquivo config.py na raiz do projeto com o conteúdo abaixo:
 
 DISCORD_TOKEN = 'seu_token_do_bot'
 TRACKER_API_KEY = 'sua_api_key_da_tracker'
@@ -65,11 +65,11 @@ RIOT_IDS_PRINCIPAIS = [
 ]
 NOME_DA_EQUIPE = "Nome da Equipe"
 
-## 2️⃣ Crie a pasta data/, se ela ainda não existir:
+### 2️⃣ Crie a pasta data/, se ela ainda não existir:
 
 mkdir data
 
-## 3️⃣ ⚠️ Segurança
+### 3️⃣ ⚠️ Segurança
 Adicione os arquivos sensíveis ao seu .gitignore:
 
 config.py
@@ -77,14 +77,14 @@ data/
 venv/
 __pycache__/
 
-## ▶️ Como Rodar
+### ▶️ Como Rodar
 
 Execute o bot com:
 
 python bot.py
 
 O bot ficará online e começará a monitorar os jogadores e agendar o envio automático de relatórios.
-# 💬 Comandos Disponíveis
+## 💬 Comandos Disponíveis
 
     !stats → Envia manualmente o relatório das partidas Premier jogadas nos últimos 6 dias.
 
@@ -120,9 +120,9 @@ O bot ficará online e começará a monitorar os jogadores e agendar o envio aut
 
     Gera um relatório visual em formato de embed no Discord
 
-## 📊 Exemplo de Relatório no Discord
+# 📊 Exemplo de Relatório no Discord
 
-📊 Estatísticas Semanais – Equipe Alpha
+📊 Estatísticas Semanais – CL HAWKS 
 🗓️ Semana: 09/06 a 15/06
 
 Jogador1#Tag
@@ -145,27 +145,27 @@ Kills: 48 | Deaths: 30 | Assists: 15 | FB: 5 | FD: 3
 
 ---
 
-### ☁️ Dicas de Deploy
+## ☁️ Dicas de Deploy
 
-## 💻 Linux:
+### 💻 Linux:
 
     Utilize screen, tmux ou crie um serviço com systemd para manter o bot ativo 24/7
 
-## 🪟 Windows:
+### 🪟 Windows:
 
     Use o NSSM (Non-Sucking Service Manager) para rodar o bot como serviço em segundo plano
 
-### 🚨 Problemas Comuns
+## 🚨 Problemas Comuns
 
-## ❌ Erro 401 na API da Tracker.gg
+### ❌ Erro 401 na API da Tracker.gg
 → Verifique se a chave da API está correta e sem espaços extras.
 
-## 🤖 Bot não responde no Discord
+### 🤖 Bot não responde no Discord
 → Certifique-se de que está online, com o token correto e com permissões no servidor.
 
-## 📉 Partidas Premier não aparecem
+### 📉 Partidas Premier não aparecem
 → A Tracker.gg pode demorar para atualizar os dados. Verifique se as partidas foram públicas e realmente Premier.
 🧾 Licença
 
 ## 👨‍💻 Autor
-Desenvolvido por [Eric Lopes]
+Desenvolvido por [Eric Lopes].
