@@ -1,4 +1,4 @@
-### 🤖 Bot de Estatísticas Premier para Discord
+# 🤖 Bot de Estatísticas Premier para Discord
 ## 📌 Descrição
 
 Bot para Discord que coleta estatísticas de partidas Premier do Valorant via Tracker.gg e envia relatórios automáticos semanais para um canal do servidor.
