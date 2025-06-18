@@ -171,4 +171,4 @@ Kills: 48 | Deaths: 30 | Assists: 15 | FB: 5 | FD: 3
 --- 
 
 ## 👨‍💻 Autor
-Desenvolvido por [Eric Lopes].
+Desenvolvido por Eric Lopes.
